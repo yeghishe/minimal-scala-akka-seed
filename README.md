@@ -1,7 +1,7 @@
 minimal-scala-akka-seed
 =========================
 
-This is a seed project to create basic akka projects
+This is a seed project to create basic akka projects.
 
 * Has *Akka*, *Scalaz*, *ScalaTest* and *ScalaMock* at their latest versions as dependencies.
 * Has *sbt-scalariform*, *sbt-scapegoat*, *scalastyle-sbt-plugin*,

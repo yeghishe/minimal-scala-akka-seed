@@ -36,5 +36,8 @@ ScalariformKeys.preferences := ScalariformKeys.preferences.value
 
 initialCommands := """|import scalaz._
                       |import Scalaz._
+                      |import akka.actor._
+                      |import akka.pattern._
+                      |import akka.util._
                       |import scala.concurrent._
                       |import scala.concurrent.duration._""".stripMargin
