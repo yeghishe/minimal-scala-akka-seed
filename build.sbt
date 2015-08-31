@@ -3,13 +3,13 @@ import scalariform.formatter.preferences._
 name          := "minimal-scala-akka-seed"
 organization  := "com.github.yeghishe"
 version       := "0.0.1"
-scalaVersion  := "2.11.6"
+scalaVersion  := "2.11.7"
 scalacOptions := Seq("-unchecked", "-feature", "-deprecation", "-encoding", "utf8")
 
 libraryDependencies ++= {
-  val scalazV          = "7.2.0-M1"
-  val akkaV            = "2.4-M1"
-  val scalaTestV       = "3.0.0-M1"
+  val scalazV          = "7.2.0-M2"
+  val akkaV            = "2.4.0-RC1"
+  val scalaTestV       = "3.0.0-M7"
   val scalaMockV       = "3.2.2"
   val scalazScalaTestV = "0.2.3"
   Seq(
@@ -19,7 +19,7 @@ libraryDependencies ++= {
     "org.scalamock"     %% "scalamock-scalatest-support" % scalaMockV       % "it,test",
     "org.scalaz"        %% "scalaz-scalacheck-binding"   % scalazV          % "it,test",
     "org.typelevel"     %% "scalaz-scalatest"            % scalazScalaTestV % "it,test",
-    "com.typesafe.akka" %% "akka-actor-tests"            % akkaV            % "it,test"
+    "com.typesafe.akka" %% "akka-actor-tests"            % "2.4-M1"         % "it,test"
   )
 }
 
