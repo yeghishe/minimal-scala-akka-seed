@@ -21,7 +21,7 @@ libraryDependencies ++= {
     "org.scalamock"     %% "scalamock-scalatest-support" % scalaMockV       % "it,test",
     "org.scalaz"        %% "scalaz-scalacheck-binding"   % scalazV          % "it,test",
     "org.typelevel"     %% "scalaz-scalatest"            % scalazScalaTestV % "it,test",
-    "com.typesafe.akka" %% "akka-actor-tests"            % akkaV            % "it,test"
+    "com.typesafe.akka" %% "akka-testkit"                % akkaV            % "it,test"
   )
 }
 
