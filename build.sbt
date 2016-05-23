@@ -8,7 +8,7 @@ resolvers += Resolver.jcenterRepo
 
 libraryDependencies ++= {
   val scalazV          = "7.3.0-M2"
-  val akkaV            = "2.4.4"
+  val akkaV            = "2.4.6"
   val ficusV           = "1.2.4"
   val scalaTestV       = "3.0.0-M15"
   val scalaMockV       = "3.2.2"
@@ -21,7 +21,7 @@ libraryDependencies ++= {
     "org.scalamock"     %% "scalamock-scalatest-support" % scalaMockV       % "it,test",
     "org.scalaz"        %% "scalaz-scalacheck-binding"   % scalazV          % "it,test",
     "org.typelevel"     %% "scalaz-scalatest"            % scalazScalaTestV % "it,test",
-    "com.typesafe.akka" %% "akka-actor-tests"            % "2.4-M1"         % "it,test"
+    "com.typesafe.akka" %% "akka-actor-tests"            % akkaV            % "it,test"
   )
 }
 
