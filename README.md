@@ -16,6 +16,9 @@ This is a seed project to create basic akka projects.
   *sbt-scoverage*, *sbt-revolver*, *sbt-native-packager*  sbt plugins
 * Test and it folders are setup.
 
+```
+activator new <YOUR PROJECT NAME> minimal-scala-akka-seed
+```
 
 [build-status-badge]: https://img.shields.io/travis/yeghishe/minimal-scala-akka-seed.svg?style=flat-square
 [build-status-url]: https://travis-ci.org/yeghishe/minimal-scala-akka-seed
