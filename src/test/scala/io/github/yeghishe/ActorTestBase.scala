@@ -1,10 +1,11 @@
 package io.github.yeghishe
 
 import akka.actor.ActorSystem
-import akka.testkit.{ TestKit, ImplicitSender }
-import org.scalatest.{ BeforeAndAfterAll, WordSpecLike, Matchers }
+import akka.testkit.{ImplicitSender, TestKit}
+import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
 
-abstract class ActorTestBase extends TestKit(ActorSystem())
+abstract class ActorTestBase
+    extends TestKit(ActorSystem())
     with ImplicitSender
     with WordSpecLike
     with Matchers
