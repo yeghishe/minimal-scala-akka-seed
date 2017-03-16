@@ -28,11 +28,13 @@ Defaults.itSettings
 Revolver.settings
 enablePlugins(JavaAppPackaging)
 
-initialCommands := """|import cats._
-                      |import cats.data._
-                      |import cats.implicits._
-                      |import akka.actor._
-                      |import akka.pattern._
-                      |import akka.util._
-                      |import scala.concurrent._
-                      |import scala.concurrent.duration._""".stripMargin
+initialCommands := """
+import cats._
+import cats.data._
+import cats.implicits._
+import akka.actor._
+import akka.pattern._
+import akka.util._
+import scala.concurrent._
+import scala.concurrent.duration._
+""".stripMargin
