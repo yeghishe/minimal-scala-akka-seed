@@ -8,9 +8,9 @@ resolvers += Resolver.jcenterRepo
 
 libraryDependencies ++= {
   val catsV          = "0.9.0"
-  val akkaV          = "2.4.16"
+  val akkaV          = "2.5.0"
   val ficusV         = "1.4.0"
-  val scalaMockV     = "3.4.2"
+  val scalaMockV     = "3.5.0"
   val catsScalatestV = "2.2.0"
 
   Seq(
