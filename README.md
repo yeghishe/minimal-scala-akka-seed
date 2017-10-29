@@ -1,6 +1,8 @@
 minimal-scala-akka-seed
 =========================
 
+**Deprecated in favor of [yeghishe/minimal-scala-akka-seed.g8](https://github.com/yeghishe/minimal-scala-akka-seed.g8)**
+
 [![Build Status][build-status-badge]][build-status-url]
 [![Code Quality][code-quality-badge]][code-quality-url]
 
